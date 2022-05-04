@@ -2,12 +2,9 @@ const _flexbox = document.querySelector(".flex");
 const _hr = document.createElement("hr");
 const list = document.createElement("ul");
 list.classList.add("listul");
-//
-
-///
 
 const buttonheader = document.querySelector("button__click");
-// let div = document.querySelector("console");
+
 const divinfo = document.querySelector(".info");
 const divflex = document.querySelector(".flex");
 divflex.append(divinfo);
@@ -39,7 +36,6 @@ function createList(text) {
 
   const _button = document.createElement("button");
   _button.classList.add("ButtonX");
-  // кнопка которую нужно удалить//
   _button.onclick = () => {
     _li.remove();
   };
